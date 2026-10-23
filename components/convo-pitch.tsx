@@ -103,8 +103,8 @@ export function ConvoPitch() {
         </div>
       </section>
 
-      <footer className="border-t border-white/15 bg-[oklch(0.24_0.035_150)] text-[oklch(0.92_0.01_150)]">
-        <div className="flex flex-col gap-2 px-6 py-4 text-xs tracking-wide sm:flex-row sm:items-center sm:justify-between">
+      <footer className="border-t border-white/20 bg-[oklch(0.22_0.04_150)] text-white/80">
+        <div className="flex flex-col gap-2 px-6 py-5 text-[13px] tracking-wide sm:flex-row sm:items-center sm:justify-between sm:px-8">
           <p>The Convo · a memory garden</p>
           <p className="sm:text-right">in development · art from the current garden</p>
         </div>
