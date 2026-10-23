@@ -1,10 +1,12 @@
+import { assetPath } from '@/lib/utils'
+
 const GARDEN_APP = 'https://theconvo.vercel.app'
 
 export function ConvoPitch() {
   const gardenHref = GARDEN_APP
   const plantHref = `${GARDEN_APP}?plant=1`
-  const frontArt = '/images/the-convo-front.jpg'
-  const fieldArt = '/images/the-convo-garden.jpg'
+  const frontArt = assetPath('/images/the-convo-front.jpg')
+  const fieldArt = assetPath('/images/the-convo-garden.jpg')
 
   return (
     <main className="relative min-h-svh bg-background text-foreground">
