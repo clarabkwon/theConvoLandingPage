@@ -80,13 +80,13 @@ export function ConvoPitch() {
           </p>
           <h2 className="mt-3 font-serif text-3xl text-pretty md:text-4xl">Other walks left blooms here.</h2>
           <p className="mt-4 text-sm leading-relaxed text-foreground/85 text-pretty md:text-base">
-            Wander. Open a flower. Read an anonymous memory. Listen. Nothing here asks for a name. Each
-            bloom is a song and a moment someone was willing to set down.
+            Wander. Open a flower. Read an anonymous memory. Listen. Each bloom is a song and a
+            moment someone was willing to set down.
           </p>
         </div>
       </section>
 
-      <section className="flex flex-col items-center gap-4 px-6 pb-20 pt-8 text-center">
+      <section className="flex flex-col items-center gap-4 px-6 pb-16 pt-8 text-center">
         <p className="max-w-md font-serif text-2xl text-pretty md:text-3xl">
           Step into the garden, or plant one of your own.
         </p>
@@ -102,6 +102,13 @@ export function ConvoPitch() {
           </a>
         </div>
       </section>
+
+      <footer className="border-t border-white/15 bg-[oklch(0.24_0.035_150)] text-[oklch(0.92_0.01_150)]">
+        <div className="flex flex-col gap-2 px-6 py-4 text-xs tracking-wide sm:flex-row sm:items-center sm:justify-between">
+          <p>The Convo · a memory garden</p>
+          <p className="sm:text-right">in development · art from the current garden</p>
+        </div>
+      </footer>
     </main>
   )
 }
